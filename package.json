@@ -1,7 +1,11 @@
 {
   "name": "@andreas-groos/export-comp",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "repository": "git://github.com/andreas-groos/export-comp.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "main": "/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
